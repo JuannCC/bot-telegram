@@ -10,7 +10,7 @@ from disn import dis_scraping
 #Envia el resultado al Telegram
 def bot_send_text(bot_message):
     
-    bot_token = 'colocar el tocken'
+    bot_token = 'colocar el token'
     bot_chatID = 'colocar ID'
     send_text = 'https://api.telegram.org/bot' + bot_token + '/sendMessage?chat_id=' + bot_chatID + '&parse_mode=Markdown&text=' + bot_message
 
